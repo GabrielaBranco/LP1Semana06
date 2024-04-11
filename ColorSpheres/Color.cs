@@ -7,10 +7,10 @@ namespace ColorSpheres
 {
     public class Color
     {
-        private int _red;
-        private int _green;
-        private int _blue;
-        private int _alpha;
+        private readonly int _red;
+        private readonly int _green;
+        private readonly int _blue;
+        private readonly int _alpha;
 
         public Color(int red, int green, int blue, int alpha)
         {
