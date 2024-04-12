@@ -1,4 +1,4 @@
-namespace ColorSpheres
+namespace BetterColorSpheres
 {
     public class Sphere
     {        

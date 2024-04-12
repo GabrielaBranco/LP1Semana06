@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Globalization;
-using System.Runtime.CompilerServices;
 
-namespace ColorSpheres
+namespace BetterColorSpheres
 {
     class Program
     {
@@ -17,7 +15,7 @@ namespace ColorSpheres
 
             Console.WriteLine($"Color: ({redSphere.Color.Rgb})");
             Console.WriteLine($"Grey: {redSphere.Color.GetGrey()}");
-            Console.WriteLine($"Times Thrown: {redSphere.ThrownTimes}");            
+            Console.WriteLine($"Times Thrown: {redSphere.ThrownTimes}");
         }
     }
 }
